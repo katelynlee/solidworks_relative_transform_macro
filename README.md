@@ -10,8 +10,9 @@ When you click *Apply*, the macro will create a new coordinate frame in your Par
 
 ## Calculate Relative Transform
 From the drop-down menu, you can select two existing coordinate frames from the feature tree to calculate the relative transform from the *Base Transform* to the *Goal Transform*. The relative transform will populate in the textbox below, following the standard homogeneous 4x4 matrix format:
+
 $$
-\mathbf{T} =
+T =
 \left[
 \begin{array}{cccc}
 R_{11} & R_{12} & R_{13} & T_1 \\
@@ -34,6 +35,7 @@ Note: the origin frame *o* was manually made as a separate coordinate frame, not
 
 ![SolidWorks Macro UI](relative_macro_visual.png)
 Data used in example: 
+
 $$
 \text{frame 1} =
 \left[
